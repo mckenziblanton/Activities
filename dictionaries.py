@@ -16,3 +16,17 @@ item3 = {"bag": ["laptop", "usb", "food"], "pocket": [5.00,1.00,"gum"],
 print(item3["bag"])
 print(item3["pocket"])
 print(item3["reddit"]["key"][3])
+
+# activity - info in dictionarie
+dictionary = {"name": "McKenzi", "age": 22, "hobbies": ["sleep", "tv", "pizza"], "times": {"Monday": 5, "Tuesday": 6, 
+"Thursday": 7}}
+
+print(dictionary["name"])
+print(len(dictionary["hobbies"]))
+print(dictionary["times"]["Monday"])
+
+for hobbies in dictionary["hobbies"]:
+    print(hobbies)
+#for times in dictionary["times"]:
+    #print(times + " " str(dictionary["times"][times]))
+    #print(time + " " + time.)
